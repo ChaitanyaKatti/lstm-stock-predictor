@@ -12,6 +12,12 @@ This is PyTorch implementation of the LSTM(Long-short-term memory) model to pred
 - Look at the terminal for training progress and the `/plots` folder for results.
 
 # Model Architecture
+
+This architecture allows for 
+- Different input(x) and output(y) features
+- Different input and output lengths
+- The long-term memory state ('c') to be maintained across both LSTMs
+
 <table align="center">
   <tr>
     <td align="center">
@@ -28,8 +34,17 @@ This is PyTorch implementation of the LSTM(Long-short-term memory) model to pred
     </td>
   </tr>
   <tr>
-    <td align="center"><b>Figure 2:</b> Recurrency of LSTM</td>
+    <td align="center"><b>Figure 2:</b> Recurrency input in LSTM</td>
   </tr>
-
   
+  <tr>
+    <td align="center">
+      <img src="https://github.com/ChaitanyaKatti/lstm-stock-predictor/assets/96473570/8c393962-0206-465e-a4b8-7cfc4580de74" alt="LSTM Architecture Design" width=95%>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Figure 3:</b> LSTM Architecture in this implementation (Note: Both x and y differ in size and so does input and output length)</td>
+  </tr>
 </table>
+
+# Results
