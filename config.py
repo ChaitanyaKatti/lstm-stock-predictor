@@ -35,4 +35,3 @@ VAL_RATIO = 0.1
 # Stock Simulation Paramerters
 INITIAL_CASH = 100 # Starting cash
 TRADE_COMMISION = 0.001 # Transaction cost as a fraction of the total transaction amount
-BID_ASK_SPREAD = 0.001 # Bid-ask spread as a fraction of the current price

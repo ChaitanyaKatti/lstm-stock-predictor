@@ -1,8 +1,7 @@
-# Import standard modules
 import pandas as pd
 import torch
 from torch.utils.data import Dataset
-# Import custom modules
+
 from config import *
 from data_utils import pre_process_data
 

@@ -63,6 +63,7 @@ def plot_predictions(model, test_dataset, file_name=None) -> None:
     Plots predictions vs actual values in 6 subplots choosen randomly from the test dataset
     
     Saves plot in plots folder
+    
     Input:
     -----
         `model`: model to inference with \n

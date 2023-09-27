@@ -1,9 +1,7 @@
-# Import standard modules
 import torch
 from torch import nn
-# Import custom modules
-from config import *
 
+from config import *
 
 class PricePredictor(nn.Module):
     def __init__(self, input_size, hidden_size, num_layers, output_size, dropout=0.2, device=DEVICE):
@@ -30,7 +28,7 @@ class PricePredictor(nn.Module):
         self.__fc_pre = nn.Linear(self.__hidden_size, self.__output_size)
         self.__fc_post = nn.Linear(self.__hidden_size, self.__output_size)
 
-    def forward(self, x, PRED_LEN=1, debug=False):
+    def forward(self, x, PRED_LEN=1):
         '''
         Forward pass of the neural network
         
@@ -46,15 +44,9 @@ class PricePredictor(nn.Module):
         c = torch.zeros(self.__num_layers, x.size(0), self.__hidden_size, dtype=torch.float32).requires_grad_().to(DEVICE)
 
         out, (h, c) = self.__lstm_pre(x, (h, c))
+        
         # Add a sequence length dimension to the output
         out = self.__fc_pre(out[:, -1, :]).unsqueeze(-2)
-
-        if debug:
-            print('==========================================')
-            print(x)
-            print()
-            print(out)
-            print('------------------------------------------')
 
         predictions = out  # Make a copy to keep track all out puts
 

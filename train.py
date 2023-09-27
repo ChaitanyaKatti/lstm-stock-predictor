@@ -1,10 +1,8 @@
-# Import standard modules
 import torch
 from torch import nn
 from tensorboardX import SummaryWriter
 from tqdm import tqdm
 
-# Import custom modules
 from config import *
 from plot_utils import plot_losses
 from loss import loss_fn

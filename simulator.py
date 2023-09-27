@@ -7,13 +7,10 @@
 # 6. Short positon incure an interest rate need to be paid to the broker along with dividends paid to the lender. 
 #    Simulating these would be a lot of work and not in the spirit of this assignment.
 
-
-# Import standard modules
 import pandas as pd
 import torch
 from torch import nn
 
-# Import custom modules
 from data_utils import read_data, pre_process_data
 from plot_utils import plot_simulation
 from config import *

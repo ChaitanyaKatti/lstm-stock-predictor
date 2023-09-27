@@ -1,8 +1,6 @@
-# Import standard modules
 import torch
 from torch.utils.data import DataLoader
 
-# Import custom modules
 from config import *
 from dataloader import StockData
 from model import PricePredictor
@@ -57,5 +55,5 @@ if __name__ == '__main__':
     # Call the simulator function
     simulate(model, test_dataset)
     
-    # Please check the plots folder for the results
+    # Check the plots folder for the results
     # All results are stored in plots folder

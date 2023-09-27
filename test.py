@@ -1,9 +1,7 @@
-# Import standard modules
 import torch
 from torch import nn
 import matplotlib.pyplot as plt
 
-# Import custom modules
 from config import *
 from loss import loss_fn
 
