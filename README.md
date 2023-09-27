@@ -15,7 +15,7 @@ This is PyTorch implementation of the LSTM(Long-short-term memory) model to pred
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github.com/ChaitanyaKatti/lstm-stock-predictor/assets/96473570/8de3e718-3986-4605-a851-0643837626f0" alt="LSTM Basic" width=50%>
+      <img src="https://github.com/ChaitanyaKatti/lstm-stock-predictor/assets/96473570/8de3e718-3986-4605-a851-0643837626f0" alt="LSTM Basic" width=70%>
     </td>
   </tr>
   <tr>
@@ -24,11 +24,12 @@ This is PyTorch implementation of the LSTM(Long-short-term memory) model to pred
   
   <tr>
     <td align="center">
-      <img src="https://github.com/ChaitanyaKatti/lstm-stock-predictor/assets/96473570/7e6f9814-2b17-439b-865f-3c5891db411e" alt="LSTM Recurrent Diagram" width=50%>
+      <img src="https://github.com/ChaitanyaKatti/lstm-stock-predictor/assets/96473570/7e6f9814-2b17-439b-865f-3c5891db411e" alt="LSTM Recurrent Diagram" width=70%>
     </td>
   </tr>
   <tr>
     <td align="center"><b>Figure 2:</b> Recurrency of LSTM</td>
   </tr>
+
   
 </table>
