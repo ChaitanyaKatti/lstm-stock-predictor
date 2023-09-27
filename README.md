@@ -25,7 +25,7 @@ This architecture allows for
     </td>
   </tr>
   <tr>
-    <td align="center"><b>Figure 1:</b> Forward pass in LSTM</td>
+    <td align="center"><b>Figure 1:</b> Forward pass in a standard LSTM</td>
   </tr>
   
   <tr>
@@ -48,3 +48,31 @@ This architecture allows for
 </table>
 
 # Results
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/ChaitanyaKatti/lstm-stock-predictor/assets/96473570/c3adc43c-dd8f-435f-ad10-cd06d47dab23" alt="Loss Curve" width=70%>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Figure 4:</b> Loss Curve over training</td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://github.com/ChaitanyaKatti/lstm-stock-predictor/assets/96473570/7c063445-1558-4723-b360-da6e3bd132ff" alt="Predictions" width=70%>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Figure 5:</b> Prediction </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://github.com/ChaitanyaKatti/lstm-stock-predictor/assets/96473570/752bdacc-6535-448f-9404-fbce0fef8ffa" alt="Simulation Results" width=70%>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Figure 6:</b> Market simulation results </td>
+  </tr>
+</table>
